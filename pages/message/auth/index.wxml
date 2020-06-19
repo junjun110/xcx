@@ -1,0 +1,24 @@
+<view class="page">
+    <view class="inner">
+        <view class="image">
+            <image src="{{imgUrl+'/plugin/app/static/images/wxapp/accredit.png'}}"></image>
+        </view>
+        <view class="text" wx:if="{{!close}}">小程序需要获取您的授权<text>
+</text>才能为您提供后续服务哦</view>
+        <button bindgetuserinfo="bindGetUserInfo" class="btn" openType="getUserInfo" wx:if="{{!close}}">点击授权</button>
+		
+		 
+		 
+		 <navigator style="background:#c6c6c6"  class="btn"      openType="switchTab" url="/pages/index/index">
+                
+                <view class="label">暂不授权</view>
+            </navigator>
+		 
+		 
+		 
+		 
+		 
+		 
+        <view class="text" wx:if="{{close}}">{{text}}</view>
+    </view>
+</view>
