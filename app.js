@@ -136,9 +136,9 @@ App({
         flag: !1
     },
     globalData: {
-      appid: "wxb9bbae732e0b4818",
-      api: "https://www.jwdego.com/app/ewei_shopv2_api.php?i=5",
-      approot: "https://www.jwdego.com/addons/ewei_shopv2/",
+      appid: "wxf87ebe7ea46da4b0",
+      api: "https://wx.jpgke.com/app/ewei_shopv2_api.php?i=5",
+      approot: "https://wx.jpgke.com/addons/ewei_shopv2/",
         userInfo: null,
         isgoods: true
     }

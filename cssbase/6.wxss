@@ -1011,6 +1011,7 @@ image.radius {
     background-size: cover;
     height: 231rpx;
     width: 231rpx;
+    border-radius: 10rpx;
 }
 
 .fui-goods-group {
